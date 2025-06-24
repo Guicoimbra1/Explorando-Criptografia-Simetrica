@@ -1,9 +1,9 @@
 !! É NECESSÁRIO TER O PACOTE "cryptography" INSTALADO, PARA ISSO EXECUTE O COMANDO pip install cryptography OU python -m pip install cryptography NO SEU TEMINAL DE COMANDO!!
 
-Este é um pequeno projeto meu explorando criptografia simétrica em Python
+Este é um pequeno projeto explorando criptografia simétrica em Python
 
-É muito simples usar, ao iniciar o programa, caso você não possua uma chave de criptografia use a opção "Gerar Chave", uma chave irá aparecer que pode ser copiada,
-o programa também criará um arquivo "chave.key" na mesma pasta do programa (que pode ser aberto usando o bloco de notas) contendo a chave recém gerada, mas cuidado, se outra chave for gerada
+É muito simples usar, ao iniciar o programa, caso você não possua uma chave de criptografia use a opção "Gerar Chave", uma chave irá aparecer que pode ser copiada.
+O programa também criará um arquivo "chave.key" na mesma pasta do programa (que pode ser aberto usando o bloco de notas) contendo a chave recém gerada, mas cuidado, se outra chave for gerada
 a chave existente no arquivo será subistituida pela nova.
 
 Na criptografia simétrica, um texto ou arquivo só pode ser descriptografado usando a mesma chave usada para criptografá-lo, logo sugiro guardar bem a chave usada para criptografar.
