@@ -16,4 +16,5 @@ As únicas chaves que funcionam neste programa são as suportadas pelo fernet (b
 
 Funciona com quase todo tipo de arquivos texto, áudio, vídeo, imagens, etc...
 
+Eu inclui alguns arquivo para testes.
 Divirta-se ;)
