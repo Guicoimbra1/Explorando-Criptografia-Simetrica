@@ -1,3 +1,5 @@
+!!É NECESSÁRIO TER O PACOTE "cryptography" INSTALADO, PARA ISSO EXECUTE O COMANDO pip install cryptography OU python -m pip install cryptography NO SEU TEMINAL DE COMANDO!!
+
 Este é um pequeno projeto meu explorando criptografia simétrica em Python
 
 É muito simples usar, ao iniciar o programa, caso você não possua uma chave de criptografia use a opção "Gerar Chave", uma chave irá aparecer que pode ser copiada,
@@ -19,4 +21,4 @@ Funciona com quase todo tipo de arquivos texto, áudio, vídeo, imagens, etc...
 Eu inclui alguns arquivo para testes.
 Divirta-se ;)
 
-!!É NECESSÁRIO TER O PACOTE "cryptography" INSTALADO, PARA ISSO EXECUTE O COMANDO pip install cryptography OU python -m pip install cryptography NO SEU TEMINAL DE COMANDO!!
+
