@@ -1,4 +1,4 @@
-Este é um pequeno projeto meu explorando criptografia simétrica
+Este é um pequeno projeto meu explorando criptografia simétrica em Python
 
 É muito simples usar, ao iniciar o programa, caso você não possua uma chave de criptografia use a opção "Gerar Chave", uma chave irá aparecer que pode ser copiada,
 o programa também criará um arquivo "chave.key" na mesma pasta do programa (que pode ser aberto usando o bloco de notas) contendo a chave recém gerada, mas cuidado, se outra chave for gerada
