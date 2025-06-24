@@ -11,7 +11,7 @@ contendo a sua extensão (ex: arquivo.txt ou audio.mp3)
 
 importante lembrar que o arquivo deve estar presente na mesma pasta que o programa, caso alguma dessas orientações não for seguida o arquivo não será criptografado.
 
-Após inserir o texto ou nome de arquivo aperte ENTER, insira a chave quando for pedida, aperte ENTER e pronto
+Após inserir o texto ou nome de arquivo aperte ENTER, insira a chave quando for pedida, aperte ENTER e pronto.
 As únicas chaves que funcionam neste programa são as suportadas pelo fernet (base64, 32 bytes) 
 
 Funciona com quase todo tipo de arquivos texto, áudio, vídeo, imagens, etc...
