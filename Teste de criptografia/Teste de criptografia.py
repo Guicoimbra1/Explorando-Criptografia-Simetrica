@@ -17,8 +17,8 @@ lista_extensoes = [
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def detecta_arquivo(filename):
-    return any(filename.endswith(ext) for ext in lista_extensoes)
+def detecta_arquivo(nome_arquivo):
+    return any(nome_arquivo.endswith(ext) for ext in lista_extensoes)
 
 def gerar_chave():
     limpar_tela()
@@ -41,10 +41,10 @@ def criptografar():
     fernet = Fernet(input('\nDigite uma chave de criptografia adequada para fernet (base64, 32 bytes): ').encode())
 
     if arquivo:
-        with open(ROOT_PATH / texto, 'rb') as file:
-            texto_arquivo = file.read()
-        with open(ROOT_PATH / texto, 'wb') as file:
-            file.write(fernet.encrypt(texto_arquivo))
+        with open(ROOT_PATH / texto, 'rb') as arquivo:
+            texto_arquivo = arquivo.read()
+        with open(ROOT_PATH / texto, 'wb') as arquivo:
+            arquivo.write(fernet.encrypt(texto_arquivo))
         limpar_tela()    
         print(f'O arquivo {texto} foi criptografado com sucesso!')
         return None
@@ -60,13 +60,13 @@ def descriptografar():
     print('\nSe for um arquivo, digite o nome do arquivo com a extensão(ex: arquivo.txt).\n')
     texto = input('Digite o texto ou arquivo a ser descriptografado: ')
     arquivo = detecta_arquivo(texto)
-    fernet = Fernet(input('Digite a chave de descriptografia adequada: ').encode())
+    fernet = Fernet(input('\nDigite a chave de descriptografia adequada: ').encode())
 
     if arquivo:
-        with open(ROOT_PATH / texto, 'rb') as file:
-            texto_arquivo = file.read()
-        with open(ROOT_PATH / texto, 'wb') as file:
-            file.write(fernet.decrypt(texto_arquivo))
+        with open(ROOT_PATH / texto, 'rb') as arquivo:
+            texto_arquivo = arquivo.read()
+        with open(ROOT_PATH / texto, 'wb') as arquivo:
+            arquivo.write(fernet.decrypt(texto_arquivo))
         limpar_tela()
         print(f'O arquivo {texto} foi descriptografado com sucesso!')
     else:
