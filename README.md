@@ -1,4 +1,4 @@
-!! É NECESSÁRIO TER O PACOTE "cryptography" INSTALADO, PARA ISSO EXECUTE O COMANDO pip install cryptography OU python -m pip install cryptography NO SEU TEMINAL DE COMANDO!!
+!! É NECESSÁRIO TER O PACOTE "cryptography" INSTALADO, PARA ISSO EXECUTE O COMANDO "pip install cryptography" OU "python -m pip install cryptography" NO SEU TEMINAL DE COMANDO!!
 
 Este é um pequeno projeto explorando criptografia simétrica em Python
 
