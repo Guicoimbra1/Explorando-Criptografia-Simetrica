@@ -9,14 +9,14 @@ a chave existente no arquivo será subistituida pela nova.
 Na criptografia simétrica, um texto ou arquivo só pode ser descriptografado usando a mesma chave usada para criptografá-lo, logo sugiro guardar bem a chave usada para criptografar.
 
 Se desejar criptografar ou descriptografar um texto, simplesmente digite-o quando for requerido, caso deseje criptografar ou descriptografar um arquivo, digite o nome do arquivo exatamente igual ao do arquivo
-contendo a sua extensão (ex: arquivo.txt ou audio.mp3)
+contendo a sua extensão (ex: "arquivo.txt" ou "audio.mp3")
 
 importante lembrar que o arquivo deve estar presente na mesma pasta que o programa, caso alguma dessas orientações não for seguida o arquivo não será criptografado.
 
 Após inserir o texto ou nome de arquivo aperte ENTER, insira a chave quando for pedida, aperte ENTER e pronto.
 As únicas chaves que funcionam neste programa são as suportadas pelo fernet (base64, 32 bytes) 
 
-Funciona com quase todo tipo de arquivos texto, áudio, vídeo, imagens, etc...
+Funciona com quase todos os tipo de arquivos: texto, áudio, vídeo, imagens, etc...
 
 Incluí alguns arquivos para testes.
 Divirta-se ;)
